@@ -1,0 +1,49 @@
+- Infrastructure:
+
+    - UniFi Network:
+        href: https://unifi.ui.com/
+        description: Networking
+        icon: unifi
+
+    - Proxmox:
+        href: {{HOMEPAGE_VAR_PROXMOX_HREF}}
+        icon: proxmox
+        widget:
+          type: proxmox
+          url: {{HOMEPAGE_VAR_PROXMOX_URL}}
+          username: {{HOMEPAGE_VAR_PROXMOX_USERNAME}}
+          password: {{HOMEPAGE_VAR_PROXMOX_PASSWORD}}
+
+    - Pi-hole:
+        href: {{HOMEPAGE_VAR_PIHOLE_HREF}}
+        icon: pi-hole
+        widget:
+          type: pihole
+          version: 6
+          url: {{HOMEPAGE_VAR_PIHOLE_URL}}
+          key: {{HOMEPAGE_VAR_PIHOLE_KEY}}
+
+    - Nginx Proxy Manager:
+        href: {{HOMEPAGE_VAR_NPM_HREF}}
+        description: Reverse Proxy & TLS
+        icon: nginx
+
+    - Home Assistant:
+        href: {{HOMEPAGE_VAR_HA_HREF}}
+        description: Smart Home Control
+        icon: home-assistant
+
+    - Portainer:
+        href: {{HOMEPAGE_VAR_PORTAINER_HREF}}
+        description: Docker Management
+        icon: portainer
+    
+    - Grafana:
+        href: {{HOMEPAGE_VAR_GRAFANA_HREF}}
+        description: Data Visualization
+        icon: grafana
+    
+    - InfluxDB:
+        href: {{HOMEPAGE_VAR_INFLUXDB_HREF}}
+        description: Time Series Data Storage
+        icon: influxdb

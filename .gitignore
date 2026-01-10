@@ -1,0 +1,48 @@
+# ─────────────────────────
+# Secrets (CRITICAL)
+# ─────────────────────────
+.env
+.env.*
+*.secret
+*.key
+*.pem
+
+# ─────────────────────────
+# OS / Editor junk
+# ─────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# ─────────────────────────
+# Logs & temp files
+# ─────────────────────────
+*.log
+tmp/
+temp/
+logs/
+
+
+# ─────────────────────────
+# Node / build artifacts
+# (not used by Homepage configs)
+# ─────────────────────────
+node_modules/
+.next/
+dist/
+build/
+
+# ─────────────────────────
+# Python junk (for scripts/tools)
+# ─────────────────────────
+__pycache__/
+*.pyc
+
+# ─────────────────────────
+# Backup / scratch files
+# ─────────────────────────
+*.bak
+*.old
