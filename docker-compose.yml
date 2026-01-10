@@ -1,24 +1,6 @@
 version: "3.8"
 
 services:
-  homepage-init:
-    image: alpine:3.19
-    container_name: homepage-init
-    command: >
-      sh -c "
-      set -eux &&
-      echo 'Listing source:' &&
-      ls -la /src/config &&
-      echo 'Copying files...' &&
-      rm -rf /config/* &&
-      cp -rv /src/config/* /config/ &&
-      echo 'Result:' &&
-      ls -la /config
-      "
-    volumes:
-      - ./config:/src/config:ro
-      - homepage-config:/config
-    restart: "no"
   homepage:
     image: ghcr.io/gethomepage/homepage:latest
     container_name: homepage
@@ -29,8 +11,6 @@ services:
       - ./config:/app/config
       - /var/run/docker.sock:/var/run/docker.sock:ro
     environment:
-      PUID: 1000
-      PGID: 1000
       TZ: "Europe/Helsinki"
       HOMEPAGE_ALLOWED_HOSTS: "*"
       HOMEPAGE_VAR_PROXMOX_USERNAME: ${HOMEPAGE_VAR_PROXMOX_USERNAME}
@@ -45,6 +25,3 @@ services:
       HOMEPAGE_VAR_PORTAINER_HREF: ${HOMEPAGE_VAR_PORTAINER_HREF}
       HOMEPAGE_VAR_GRAFANA_HREF: ${HOMEPAGE_VAR_GRAFANA_HREF}
       HOMEPAGE_VAR_INFLUXDB_HREF: ${HOMEPAGE_VAR_INFLUXDB_HREF}
-
-volumes:
-  homepage-config:
