@@ -1,6 +1,17 @@
 version: "3.8"
 
 services:
+  homepage-init:
+    image: alpine:latest
+    command: >
+      sh -c "
+      rm -rf /config/* &&
+      cp -r /src/config/* /config/
+      "
+    volumes:
+      - ./config:/src/config:ro
+      - homepage-config:/config
+    restart: "no"
   homepage:
     image: ghcr.io/gethomepage/homepage:latest
     container_name: homepage
@@ -27,3 +38,6 @@ services:
       HOMEPAGE_VAR_PORTAINER_HREF: ${HOMEPAGE_VAR_PORTAINER_HREF}
       HOMEPAGE_VAR_GRAFANA_HREF: ${HOMEPAGE_VAR_GRAFANA_HREF}
       HOMEPAGE_VAR_INFLUXDB_HREF: ${HOMEPAGE_VAR_INFLUXDB_HREF}
+
+volumes:
+  homepage-config:

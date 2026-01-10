@@ -46,3 +46,8 @@ __pycache__/
 # ─────────────────────────
 *.bak
 *.old
+
+custom.css
+custom.js
+kubernetes.yaml
+proxmox.yaml
