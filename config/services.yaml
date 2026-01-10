@@ -8,6 +8,7 @@
     - Proxmox:
         href: {{HOMEPAGE_VAR_PROXMOX_HREF}}
         icon: proxmox
+        ping: {{HOMEPAGE_VAR_PROXMOX_HREF}}
         widget:
           type: proxmox
           url: {{HOMEPAGE_VAR_PROXMOX_URL}}
@@ -17,6 +18,7 @@
     - Pi-hole:
         href: {{HOMEPAGE_VAR_PIHOLE_HREF}}
         icon: pi-hole
+        ping: {{HOMEPAGE_VAR_PIHOLE_HREF}}
         widget:
           type: pihole
           version: 6
@@ -27,23 +29,28 @@
         href: {{HOMEPAGE_VAR_NPM_HREF}}
         description: Reverse Proxy & TLS
         icon: nginx
+        ping: {{HOMEPAGE_VAR_NPM_HREF}}
 
     - Home Assistant:
         href: {{HOMEPAGE_VAR_HA_HREF}}
         description: Smart Home Control
+        ping: {{HOMEPAGE_VAR_HA_HREF}}
         icon: home-assistant
 
     - Portainer:
         href: {{HOMEPAGE_VAR_PORTAINER_HREF}}
         description: Docker Management
+        ping: {{HOMEPAGE_VAR_PORTAINER_HREF}}
         icon: portainer
     
     - Grafana:
         href: {{HOMEPAGE_VAR_GRAFANA_HREF}}
         description: Data Visualization
+        ping: {{HOMEPAGE_VAR_GRAFANA_HREF}}
         icon: grafana
     
     - InfluxDB:
         href: {{HOMEPAGE_VAR_INFLUXDB_HREF}}
         description: Time Series Data Storage
+        ping: {{HOMEPAGE_VAR_INFLUXDB_HREF}}
         icon: influxdb
