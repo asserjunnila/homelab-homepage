@@ -2,11 +2,18 @@ version: "3.8"
 
 services:
   homepage-init:
-    image: alpine:latest
+    image: alpine:3.19
+    container_name: homepage-init
     command: >
       sh -c "
+      set -eux &&
+      echo 'Listing source:' &&
+      ls -la /src/config &&
+      echo 'Copying files...' &&
       rm -rf /config/* &&
-      cp -r /src/config/* /config/
+      cp -rv /src/config/* /config/ &&
+      echo 'Result:' &&
+      ls -la /config
       "
     volumes:
       - ./config:/src/config:ro
