@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   homepage:
-    image: ghcr.io/gethomepage/homepage:latest
+    image: gethomepage/homepage:latest
     container_name: homepage
     restart: unless-stopped
     ports:
@@ -23,4 +23,7 @@ services:
       HOMEPAGE_VAR_HA_HREF: ${HOMEPAGE_VAR_HA_HREF}
       HOMEPAGE_VAR_PORTAINER_HREF: ${HOMEPAGE_VAR_PORTAINER_HREF}
       HOMEPAGE_VAR_GRAFANA_HREF: ${HOMEPAGE_VAR_GRAFANA_HREF}
+      HOMEPAGE_VAR_GRAFANA_API_URL: ${HOMEPAGE_VAR_GRAFANA_API_URL}
+      HOMEPAGE_VAR_GRAFANA_USERNAME: ${HOMEPAGE_VAR_GRAFANA_USERNAME}
+      HOMEPAGE_VAR_GRAFANA_PASSWORD: ${HOMEPAGE_VAR_GRAFANA_PASSWORD}
       HOMEPAGE_VAR_INFLUXDB_HREF: ${HOMEPAGE_VAR_INFLUXDB_HREF}
