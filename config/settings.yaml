@@ -1,1 +1,6 @@
 title: Home
+layout:
+  Infrastructure:
+    columns: 2
+  Services:
+    colums: 2
