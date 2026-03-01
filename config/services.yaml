@@ -58,3 +58,15 @@
         description: Smart Home Control
         ping: {{HOMEPAGE_VAR_HA_HREF}}
         icon: home-assistant
+- Media:
+    - Sonos:
+        href: https://play.sonos.com
+        description: Multiroom Audio App
+        icon: /icons/sonos_logo.png
+    - Spotify:
+        href: https://open.spotify.com
+        description: Music Streaming
+        icon: spotify
+
+    
+
