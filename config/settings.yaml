@@ -3,4 +3,8 @@ layout:
   Infrastructure:
     columns: 2
   Services:
-    colums: 2
+    colums: 1
+  Media:
+    columns: 1
+
+
