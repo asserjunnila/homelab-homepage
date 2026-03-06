@@ -6,6 +6,7 @@
     - Proxmox:
         href: {{HOMEPAGE_VAR_PROXMOX_HREF}}
         icon: proxmox
+        description: Virtualization Platform For Containers and VMs
         ping: {{HOMEPAGE_VAR_PROXMOX_HREF}}
         widget:
           type: proxmox
@@ -15,6 +16,7 @@
     - Pi-hole:
         href: {{HOMEPAGE_VAR_PIHOLE_HREF}}
         icon: pi-hole
+        description: DNS and Ad Block
         ping: {{HOMEPAGE_VAR_PIHOLE_HREF}}
         widget:
           type: pihole
@@ -33,7 +35,7 @@
             password: {{HOMEPAGE_VAR_NPM_PASSWORD}}
     - Portainer:
         href: {{HOMEPAGE_VAR_PORTAINER_HREF}}
-        description: Docker Management
+        description: Container Management
         ping: {{HOMEPAGE_VAR_PORTAINER_HREF}}
         icon: portainer
         widget:
@@ -61,7 +63,7 @@
 - Media:
     - Sonos:
         href: https://play.sonos.com
-        description: Multiroom Audio App
+        description: Multiroom Audio
         icon: /icons/sonos_logo.png
     - Spotify:
         href: https://open.spotify.com
