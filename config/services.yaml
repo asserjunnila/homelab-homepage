@@ -54,17 +54,27 @@
         description: Time Series Data Storage
         ping: {{HOMEPAGE_VAR_INFLUXDB_HREF}}
         icon: influxdb
+    - Zigbee:
+        href: {{HOMEPAGE_VAR_ZIGBEE_HREF}}
+        description: Zigbee Coordinator
+        ping: {{HOMEPAGE_VAR_ZIGBEE_HREF}}
+        icon: zigbee
 - Services:
     - Home Assistant:
         href: {{HOMEPAGE_VAR_HA_HREF}}
         description: Smart Home Control
         ping: {{HOMEPAGE_VAR_HA_HREF}}
         icon: home-assistant
+    - NAS:
+        href: {{HOMEPAGE_VAR_NAS_HREF}}
+        description: Network Attached Storage
+        ping: {{HOMEPAGE_VAR_NAS_HREF}}
+        icon: unifi
 - Media:
     - Sonos:
         href: https://play.sonos.com
         description: Multiroom Audio
-        icon: /icons/sonos_logo.png
+        icon: sonos
     - Spotify:
         href: https://open.spotify.com
         description: Music Streaming
