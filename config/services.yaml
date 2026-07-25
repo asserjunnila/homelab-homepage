@@ -83,10 +83,11 @@
         href: {{HOMEPAGE_VAR_JELLYFIN_HREF}}
         description: Local Media Streaming
         icon: jellyfin
+        ping: {{HOMEPAGE_VAR_JELLYFIN_HREF}}
     - qBittorrent:
         href: {{HOMEPAGE_VAR_QBITTORRENT_HREF}}
         description: Torrent Management
         icon: qbittorrent
-
+        ping: {{HOMEPAGE_VAR_QBITTORRENT_HREF}}
     
 
