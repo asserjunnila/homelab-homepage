@@ -79,6 +79,14 @@
         href: https://open.spotify.com
         description: Music Streaming
         icon: spotify
+    - Jellyfin:
+        href: {{HOMEPAGE_VAR_JELLYFIN_HREF}}
+        description: Local Media Streaming
+        icon: jellyfin
+    - qBittorrent:
+        href: {{HOMEPAGE_VAR_QBITTORRENT_HREF}}
+        description: Torrent Management
+        icon: qbittorrent
 
     
 
