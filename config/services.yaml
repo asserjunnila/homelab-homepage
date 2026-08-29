@@ -28,6 +28,17 @@
           version: 6
           url: {{HOMEPAGE_VAR_PIHOLE_URL}}
           key: {{HOMEPAGE_VAR_PIHOLE_KEY}}
+    - Pi-hole 2:
+        href: {{HOMEPAGE_VAR_PIHOLE_2_HREF}}
+        icon: pi-hole
+        description: DNS and Ad Block
+        ping: {{HOMEPAGE_VAR_PIHOLE_2_HREF}}
+        widget:
+          type: pihole
+          version: 6
+          url: {{HOMEPAGE_VAR_PIHOLE_2_URL}}
+          key: {{HOMEPAGE_VAR_PIHOLE_2_KEY}}
+
     - Nginx Proxy Manager:
         href: {{HOMEPAGE_VAR_NPM_HREF}}
         description: Reverse Proxy & TLS
