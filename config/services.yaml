@@ -1,28 +1,23 @@
 - Infrastructure:
     - UniFi Network:
         href: https://unifi.ui.com/
-        description: Networking
         icon: unifi
     - Proxmox Node 1:
         href: {{HOMEPAGE_VAR_PROXMOX1_HREF}}
         icon: proxmox
-        description: Virtualization host — VMs & LXC containers
         ping: {{HOMEPAGE_VAR_PROXMOX1_URL}}
     - Proxmox Node 2:
         href: {{HOMEPAGE_VAR_PROXMOX2_HREF}}
         icon: proxmox
-        description: Virtualization host — VMs & LXC containers
         ping: {{HOMEPAGE_VAR_PROXMOX2_URL}}
     - Proxmox Node 3:
         href: {{HOMEPAGE_VAR_PROXMOX3_HREF}}
         icon: proxmox
-        description: Virtualization host — VMs & LXC containers
         ping: {{HOMEPAGE_VAR_PROXMOX3_URL}}
     - Pi-hole:
         href: {{HOMEPAGE_VAR_PIHOLE_HREF}}
         icon: pi-hole
-        description: DNS and Ad Block
-        ping: {{HOMEPAGE_VAR_PIHOLE_HREF}}
+        ping: {{HOMEPAGE_VAR_PIHOLE_URL}}
         widget:
           type: pihole
           version: 6
@@ -31,7 +26,6 @@
     - Pi-hole 2:
         href: {{HOMEPAGE_VAR_PIHOLE_2_HREF}}
         icon: pi-hole
-        description: DNS and Ad Block
         ping: {{HOMEPAGE_VAR_PIHOLE_2_HREF}}
         widget:
           type: pihole
@@ -41,7 +35,6 @@
 
     - Nginx Proxy Manager:
         href: {{HOMEPAGE_VAR_NPM_HREF}}
-        description: Reverse Proxy & TLS
         icon: nginx
         ping: {{HOMEPAGE_VAR_NPM_HREF}}
         widget:
@@ -51,7 +44,6 @@
             password: {{HOMEPAGE_VAR_NPM_PASSWORD}}
     - Portainer:
         href: {{HOMEPAGE_VAR_PORTAINER_HREF}}
-        description: Container Management
         ping: {{HOMEPAGE_VAR_PORTAINER_HREF}}
         icon: portainer
         widget:
@@ -62,51 +54,41 @@
             key: {{HOMEPAGE_VAR_PORTAINER_KEY}}
     - Grafana:
         href: {{HOMEPAGE_VAR_GRAFANA_HREF}}
-        description: Data Visualization
         ping: {{HOMEPAGE_VAR_GRAFANA_HREF}}
         icon: grafana
     - InfluxDB:
         href: {{HOMEPAGE_VAR_INFLUXDB_HREF}}
-        description: Time Series Data Storage
         ping: {{HOMEPAGE_VAR_INFLUXDB_HREF}}
         icon: influxdb
     - Zigbee:
         href: {{HOMEPAGE_VAR_ZIGBEE_HREF}}
-        description: Zigbee Coordinator
         ping: {{HOMEPAGE_VAR_ZIGBEE_HREF}}
         icon: zigbee
 - Services:
     - Home Assistant:
         href: {{HOMEPAGE_VAR_HA_HREF}}
-        description: Smart Home Control
         ping: {{HOMEPAGE_VAR_HA_HREF}}
         icon: home-assistant
     - NAS:
         href: {{HOMEPAGE_VAR_NAS_HREF}}
-        description: Network Attached Storage
         ping: {{HOMEPAGE_VAR_NAS_HREF}}
         icon: unifi
 - Media:
     - Sonos:
         href: https://play.sonos.com
-        description: Multiroom Audio
         icon: sonos
     - Spotify:
         href: https://open.spotify.com
-        description: Music Streaming
         icon: spotify
     - Jellyfin:
         href: {{HOMEPAGE_VAR_JELLYFIN_HREF}}
-        description: Local Media Streaming
         icon: jellyfin
         ping: {{HOMEPAGE_VAR_JELLYFIN_HREF}}
     - Plex:
         href: https://app.plex.tv/desktop/#!/
-        description: Media Streaming
         icon: plex
     - qBittorrent:
         href: {{HOMEPAGE_VAR_QBITTORRENT_HREF}}
-        description: Torrent Management
         icon: qbittorrent
         ping: {{HOMEPAGE_VAR_QBITTORRENT_HREF}}
     
