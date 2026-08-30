@@ -26,7 +26,7 @@
     - Pi-hole 2:
         href: {{HOMEPAGE_VAR_PIHOLE_2_HREF}}
         icon: pi-hole
-        ping: {{HOMEPAGE_VAR_PIHOLE_2_HREF}}
+        ping: {{HOMEPAGE_VAR_PIHOLE_2_URL}}
         widget:
           type: pihole
           version: 6
@@ -73,6 +73,10 @@
         href: {{HOMEPAGE_VAR_NAS_HREF}}
         ping: {{HOMEPAGE_VAR_NAS_HREF}}
         icon: unifi
+    - Speedtest:
+        href: {{HOMEPAGE_VAR_SPEEDTEST_HREF}}
+        ping: {{HOMEPAGE_VAR_SPEEDTEST_HREF}}
+        icon: openspeedtest
 - Media:
     - Sonos:
         href: https://play.sonos.com
