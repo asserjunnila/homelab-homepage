@@ -77,6 +77,10 @@
         href: {{HOMEPAGE_VAR_SPEEDTEST_HREF}}
         ping: {{HOMEPAGE_VAR_SPEEDTEST_HREF}}
         icon: openspeedtest
+    - LexBot2:
+        href: {{HOMEPAGE_VAR_LEXBOT2_HREF}}
+        ping: {{HOMEPAGE_VAR_LEXBOT2_HREF}}
+        icon: mdi-robot
 - Media:
     - Sonos:
         href: https://play.sonos.com
