@@ -32,7 +32,15 @@
           version: 6
           url: {{HOMEPAGE_VAR_PIHOLE_2_URL}}
           key: {{HOMEPAGE_VAR_PIHOLE_2_KEY}}
-
+    - Pi-hole 3:
+        href: {{HOMEPAGE_VAR_PIHOLE_3_HREF}}
+        icon: pi-hole
+        ping: {{HOMEPAGE_VAR_PIHOLE_3_URL}}
+        widget:
+          type: pihole
+          version: 6
+          url: {{HOMEPAGE_VAR_PIHOLE_3_URL}}
+          key: {{HOMEPAGE_VAR_PIHOLE_3_KEY}}
     - Nginx Proxy Manager:
         href: {{HOMEPAGE_VAR_NPM_HREF}}
         icon: nginx
