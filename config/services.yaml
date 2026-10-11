@@ -89,6 +89,10 @@
         href: {{HOMEPAGE_VAR_LEXBOT2_HREF}}
         ping: {{HOMEPAGE_VAR_LEXBOT2_HREF}}
         icon: mdi-robot
+    - Hermes Agent:
+        href: {{HOMEPAGE_VAR_HERMES-AGENT_HREF}}
+        ping: {{HOMEPAGE_VAR_HERMES-AGENT_HREF}}
+        icon: hermes
 - Media:
     - Sonos:
         href: https://play.sonos.com
