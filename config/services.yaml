@@ -50,6 +50,9 @@
             url: {{HOMEPAGE_VAR_NPM_HREF}}
             username: {{HOMEPAGE_VAR_NPM_USERNAME}}
             password: {{HOMEPAGE_VAR_NPM_PASSWORD}}
+    - CloudFlare:
+        href: https://dash.cloudflare.com/
+        icon: cloudflare
     - Portainer:
         href: {{HOMEPAGE_VAR_PORTAINER_HREF}}
         ping: {{HOMEPAGE_VAR_PORTAINER_HREF}}
@@ -93,6 +96,7 @@
         href: {{HOMEPAGE_VAR_HERMESAGENT_HREF}}
         ping: {{HOMEPAGE_VAR_HERMESAGENT_HREF}}
         icon: hermes
+
 - Media:
     - Sonos:
         href: https://play.sonos.com
