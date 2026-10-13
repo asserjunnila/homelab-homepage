@@ -115,5 +115,6 @@
         href: {{HOMEPAGE_VAR_QBITTORRENT_HREF}}
         icon: qbittorrent
         ping: {{HOMEPAGE_VAR_QBITTORRENT_HREF}}
-    
-
+    - Google Photos:
+        href: https://photos.google.com
+        icon: google-photos
